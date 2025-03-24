@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #1f1b36; /* Deep dark purple */
+    --secondary-color: #3a3f92; /* Dark bluish-purple */
+    --background-color: #121212; /* Almost black for background */
+    --text-color: #ffffff; /* White text */
+    --button-hover: #5d5fe6; /* Lighter bluish hover */
+  }
+  
+  /* Navbar Background */
+  .custom-navbar {
+    background: var(--primary-color);
+    padding: 15px 20px;
+  }
+  
+  /* Brand Logo */
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white !important;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Add logo image next to brand text */
+  .logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  /* Navbar Links */
+  .nav-link {
+    font-size: 1.1rem;
+    color: white !important;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out, transform 0.2s;
+  }
+  
+  /* Hover Effect */
+  .nav-link:hover {
+    color: var(--button-hover) !important;
+    transform: scale(1.1);
+  }
+  
+  /* Active Link Styling */
+  .active-link {
+    font-weight: bold;
+    color: var(--button-hover) !important;
+    border-bottom: 2px solid var(--button-hover);
+  }
+  
